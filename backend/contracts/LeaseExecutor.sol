@@ -7,6 +7,7 @@ import {ZamaEthereumConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
 /// @title Confidential Lease Executor
 /// @notice A privacy-preserving lease and subscription execution platform using FHEVM
 /// @dev All lease terms (usage count, days left, payment status) are encrypted and processed in ciphertext
+/// @author BingWhit
 contract LeaseExecutor is ZamaEthereumConfig {
     /// @notice Lease contract structure
     struct Lease {
