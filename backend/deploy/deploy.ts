@@ -10,7 +10,7 @@ const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
     log: true,
   });
 
-  console.log(`LeaseExecutor contract: `, deployedLeaseExecutor.address);
+  console.log(`LeaseExecutor contract deployed at: `, deployedLeaseExecutor.address);
 };
 export default func;
 func.id = "deploy_leaseExecutor"; // id required to prevent reexecution
