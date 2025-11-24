@@ -1,3 +1,4 @@
+// Hardhat configuration for FHEVM-based lease executor
 import "@fhevm/hardhat-plugin";
 import "@nomicfoundation/hardhat-chai-matchers";
 import "@nomicfoundation/hardhat-ethers";
